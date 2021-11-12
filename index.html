@@ -1,0 +1,89 @@
+<!--Tüm Hakları Saklıdır Yunus Emre Fındık-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <title>Kayıt Ol</title>
+</head>
+<body>
+
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">Kayıt Ol</div>
+                <div class="card-body">
+                    <form action="islem.php" id="form" method="POST" novalidate="">
+                    <div class="form-group">
+                        <label for="kullaniciadi">Kullanıcı Adı</label>
+                        <input type="text" class="form-control" name="Kullanıcı Adı" id="kullaniciadi">
+                        <div></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Posta</label>
+                        <input type="email" class="form-control" name="E-Posta" id="email">
+                        <div></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="sifre">Şifre</label>
+                        <input type="password" class="form-control" name="Şifre" id="sifre">
+                        <div></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="sifretekrar">Şifreyi Tekrar Girin</label>
+                        <input type="password" class="form-control" name="Şifre Tekrar" id="sifretekrar">
+                        <div></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>JavaScript Form Validation Nedir?
+          </h6>
+          <p>
+           Form validation kullanıcıdan aldığımız verilerin doğru formatta olup olmadığını kontrol etmek amacıyla kullanılan bir yapıdır.
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Faydalı Linkler
+          </h6>
+          <p>
+            <a href="https://yunusemrefindik.com/" class="text-reset">Anasayfa</a>
+            <a href="https://github.com/yemrefindik1" class="text-reset">Github</a>
+          </p>
+          <p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            İletişim
+          </h6>
+            <i class="fas fa-envelope me-3"></i>
+           info@yunusemrefindik.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021  <a class="text-reset fw-bold" href="https://yunusemrefindik.com/">yunusemrefindik.com</a> Tüm Hakları Saklıdır
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
